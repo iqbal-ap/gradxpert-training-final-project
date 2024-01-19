@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="shadow-sm bg-warning">
+        <div class="container-sm">
+            <nav class="navbar navbar-expand-sm justify-content-end">
+                <div class="container-fluid justify-content-end">
+                    <a class="navbar-brand" href="./index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                            class="bi bi-camera2" viewBox="0 0 16 16">
+                            <path d="M5 8c0-1.657 2.343-3 4-3V4a4 4 0 0 0-4 4" />
+                            <path
+                                d="M12.318 3h2.015C15.253 3 16 3.746 16 4.667v6.666c0 .92-.746 1.667-1.667 1.667h-2.015A5.97 5.97 0 0 1 9 14a5.97 5.97 0 0 1-3.318-1H1.667C.747 13 0 12.254 0 11.333V4.667C0 3.747.746 3 1.667 3H2a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1h.682A5.97 5.97 0 0 1 9 2c1.227 0 2.367.368 3.318 1M2 4.5a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0M14 8A5 5 0 1 0 4 8a5 5 0 0 0 10 0" />
+                        </svg>
+                        Portraiture
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse text-end justify-content-end" id="myNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="./index.html" class="nav-link m-2">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link m-2">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link m-2">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./about-us.html" class="nav-link m-2">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./contact-us.html" class="nav-link m-2 active">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./todos.html" class="nav-link m-2">Todos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container-sm my-3">
+            <h1 class="text-center">Contact Us</h1>
+            <hr>
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputName" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="inputName" placeholder="Enter your name">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="your@mail.com">
+                </div>
+                <div class="col-12">
+                  <label for="inputSubject" class="form-label">Subject</label>
+                  <input type="text" class="form-control" id="inputSubject" placeholder="Email Subject">
+                </div>
+                <div class="col-12">
+                  <label for="inputMessage" class="form-label">Message</label>
+                  <textarea type="text" class="form-control" id="inputMessage" placeholder="Enter your message"></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-dark">Submit</button>
+                </div>
+              </form>
+        </div>
+    </main>
+    <footer class="bg-dark text-white pt-2">
+        <div class="container-sm">
+            <div class="d-flex flex-wrap justify-content-center text-break">
+                <div class="col-sm-2 p-2">
+                    <h5>Portraiture</h5>
+                    <hr class="hr-sm">
+                    <p class="text-justify">Capture your dearest moment!</p>
+                </div>
+                <div class="col-sm-2 p-2">
+                    <h5>Products</h5>
+                    <hr class="hr-sm">
+                    <ul class="nav flex-column">
+                        <li class="nav-item m-2">
+                            <a href="#" class="nav-link p-0 text-white">Potrait</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a href="#" class="nav-link p-0 text-white">Prewedding</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a href="#" class="nav-link p-0 text-white">Wedding</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a href="#" class="nav-link p-0 text-white">Event</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 p-2">
+                    <h5>Social Media</h5>
+                    <hr class="hr-sm">
+                    <ul class="nav flex-column">
+                        <li class="nav-item m-2">
+                            <a href="#" class="nav-link p-0 text-white">Facebook</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a href="#" class="nav-link p-0 text-white">Instagram</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a href="#" class="nav-link p-0 text-white">Youtube</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-4 p-2">
+                    <h5>Contact Us</h5>
+                    <hr class="hr-sm">
+                    <ul class="nav flex-column">
+                        <li class="nav-item m-2">
+                            <div class="d-flex flow-row justify-content-start">
+                                <i class="bi bi-envelope py-2"></i>
+                                <a href="#" class="nav-link text-white">your.portraiture@mail.com</a>
+                            </div>
+                        </li>
+                        <li class="nav-item m-2">
+                            <div class="d-flex flow-row justify-content-start">
+                                <i class="bi bi-telephone py-2"></i>
+                                <a href="#" class="nav-link text-white">+62-8123-4567</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <p>&copy; 2024 Portraiture, Inc. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
